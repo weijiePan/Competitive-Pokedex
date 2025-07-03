@@ -9,8 +9,7 @@ The Competitive-Pokedex provides
 3)Ranking of pokemons in terms of their base stats(hp, attack, defense, special)  
 4)Individual comparison option between pokemons  
 
-
-The data provided are from api calls to https://pokeapi.co/
+Competitive-Pokedex gathers its information on pokemons through api calls to https://pokeapi.co/
 
 
 
