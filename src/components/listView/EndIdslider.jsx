@@ -1,13 +1,11 @@
 
-function EndIdSlider({s}){
-    console.log(typeof s)
+function EndIdSlider({setEndId, pkmonEndId, pkmonObjArr}){
     async function endIdChange(endId){
+        for(let  i = pkmonObjArr.length + 1; i <= endId; i++){
+            await fetch(`https://pokeapi.co/api/v2/pokemon/${i}/`).then(resp => resp.json()).then((resp)=>{pkmonObjArr.push(resp)});
+        }
+        setEndId(endId);
         
-        // console.log(endId);
-        // for(let  i = pkmonObjArr.length + 1; i <= endId; i++){
-        //     await fetch(`https://pokeapi.co/api/v2/pokemon/${i}/`).then(resp => resp.json()).then((resp)=>{pkmonObjArr.push(resp)});
-        // }
-        // console.log(typeof setPkmonEndId);
     }
     return(
         <>

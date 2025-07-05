@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react"
-import EndIdSlider from "./EndIdslider"
+import EndIdSlider from "./EndIdslider.jsx"
 function PkmonList(){
-    let [pkmonEndId, s] = useState(0);
+    let [pkmonEndId, setEndId] = useState(2);
     let pkmonObjArr = [];
-    console. log(typeof setPkmonEndId);
+    
     return(
         <>
-            <EndIdSlider s/>
+            <EndIdSlider setEndId={setEndId} pkmonEndId={pkmonEndId} pkmonObjArr={pkmonObjArr}/>
             <div>ahhh</div>
+            
         </>
         
     )
