@@ -1,9 +1,13 @@
 function PkmonDisplay({pkmon}){
-    console.log(pkmon)
+    
     return(
-        <div className="PkmonDisplay" key={pkmon.name}>
-            <h1>{pkmon.name}</h1>
-            <p>hi</p>
+        <div className="pkmonDisplay" >
+            <div className = "pkmonNameHeading">
+                <h3 className = "pkmonName">{pkmon.name}</h3>
+                <h3>{pkmon.id}</h3>
+            </div>
+            <img src = {pkmon.sprites.front_default}></img>
+            <button>Learn more</button>
         </div>
     )
 }
