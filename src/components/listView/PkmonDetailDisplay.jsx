@@ -21,7 +21,7 @@ function PkmonDetailDisplay({pkmonObj}){
         <div className = "pkmonDetailDisplay">
             <div className = "heading">
                 <h3 className = "pkmonName">{pkmonObj.name}</h3>
-                <h3>{pkmonObj.id}</h3>
+                <h3 className = "pkmonId">##{pkmonObj.id}</h3>
             </div>
             <div className ="body">
                 {descriptionText}
