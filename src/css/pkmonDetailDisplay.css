@@ -17,4 +17,19 @@
     justify-content: space-between;
 }
 
+.pkmonDetailDisplay .body{
+    display: flex;
+    flex-direction: row;
+    height:40%;
+}
 
+.detailPkmonImg{
+    width: 30%;
+}
+.detailDisplayDesc{
+    width: 50%;
+}
+svg{
+    margin-top:20px;
+    margin-left:40px;
+}

@@ -8,14 +8,15 @@ import "../../css/pkmonDisplay.css"
 
 function List(){
     let [pkmonObjArr, setPkmonObjArr] = useState([]);
+    let [pkmonObj, setPkmonObj] = useState(null); //sets the pokemon used for pkmonDetailDisplay
     const pkmonDisplays = pkmonObjArr.map(pkmon =>
-        <PkmonDisplay pkmon = {pkmon} key = {pkmon.id}/>
+        <PkmonDisplay  key = {pkmon.id} pkmon = {pkmon} setPkmonObj={setPkmonObj}/>
     )
-    let pkmonDetailTest = pkmonObjArr.length > 0? <PkmonDetailDisplay pkmonObj = {pkmonObjArr[0]}/>: null;
+    let pkmonDetailDisplay = pkmonObj != null? <PkmonDetailDisplay pkmonObj = {pkmonObj} setPkmonObj={setPkmonObj}/>: null;
     return(
            
             <div className="pokedexListPage">
-                {pkmonDetailTest}
+                {pkmonDetailDisplay}
                 <EndIdSlider setPkmonObjArr={setPkmonObjArr} pkmonObjArr={pkmonObjArr}/>
                 <div className="pkmonDisplayContainer">
                     {pkmonDisplays}

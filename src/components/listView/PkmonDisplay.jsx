@@ -1,4 +1,4 @@
-function PkmonDisplay({pkmon}){
+function PkmonDisplay({pkmon, setPkmonObj}){
     
     return(
         <div className="pkmonDisplay" >
@@ -7,7 +7,9 @@ function PkmonDisplay({pkmon}){
                 <h3>{pkmon.id}</h3>
             </div>
             <img src = {pkmon.sprites.front_default}></img>
-            <button>Learn more</button>
+            <button onClick={()=>{
+                setPkmonObj(pkmon)
+            }}>Learn more</button>
         </div>
     )
 }
