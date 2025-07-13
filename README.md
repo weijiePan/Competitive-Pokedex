@@ -31,4 +31,3 @@ site: [tba]
 :white_large_square: more detailed pokemon display(displays description and base stat)  
 :white_large_square: more detailed pokemon display (displays description and base stat)
 :white_large_square: more detailed pokemon display (displays description and base stat)
-testing testing
