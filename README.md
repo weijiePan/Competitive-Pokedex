@@ -25,8 +25,9 @@ site: [tba]
 -run developer server with "npm run dev"  
 
 ## plan
--list page(a list of customizeable number of pokemons displayed like a table)
-: white_check_mark: individual pokemon display(features name and sprite)
-: white_check_mark: list that has a slider for adjusting number of pokemon displayed
-: white_square: more detailed pokemon display(displays description and base stat)
-
+-list page(a list of customizeable number of pokemons displayed like a table)  
+:white_check_mark: individual pokemon display(features name and sprite)  
+:white_check_mark: list that has a slider for adjusting number of pokemon displayed  
+:white_large_square: more detailed pokemon display(displays description and base stat)  
+`:white_square:` is not a standard GitHub emoji. Try using `:white_large_square:` instead for a visible square emoji:  
+:white_large_square: more detailed pokemon display (displays description and base stat)
