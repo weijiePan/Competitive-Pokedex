@@ -21,7 +21,7 @@ function List(){
                 <div className="pkmonDisplayContainer">
                     {pkmonDisplays}
                 </div>
-                testing testing
+                <p>testing</p>
             </div>
         
         
