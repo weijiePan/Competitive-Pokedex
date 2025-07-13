@@ -22,6 +22,7 @@ function List(){
                     {pkmonDisplays}
                 </div>
                 <p>testing</p>
+                <p>testing2</p>
             </div>
         
         
