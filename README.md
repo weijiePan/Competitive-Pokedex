@@ -34,5 +34,5 @@ site: [competitivePokedex](https://competitivepokedex.netlify.app/)
 :white_large_square: more detailed pokemon display (displays description and base stat)
 
 ## issues
-⬜ sometimes pokemon description is in a language other than English
+⬜ sometimes pokemon description is in a language other than English  
 ⬜ redering many pokemons causes long loading time
