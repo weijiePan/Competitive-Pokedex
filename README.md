@@ -16,13 +16,14 @@ Pokedex list
 ![list view](./src/assets/listView.png "pokedex list")
 
 ## How to use(user)
-site: [tba]  
+site: [competitivePokedex](https://competitivepokedex.netlify.app/)
 
 ## How to use(developer)
 -fork the project  
 -clone the project  
 -download dependencies with "npm install"  
 -run developer server with "npm run dev"  
+
 
 ## plan
 -list page(a list of customizeable number of pokemons displayed like a table)  
