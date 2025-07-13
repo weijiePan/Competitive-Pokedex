@@ -10,7 +10,7 @@ function EndIdSlider({setPkmonObjArr, pkmonObjArr}){
     }
     return(
         <>
-            <input type="range" defaultValue = {0} max={20} onChange={(rangeE) => fetchPkmons(rangeE.target.value)}></input>
+            <input type="range" defaultValue = {0} max={200} onChange={(rangeE) => fetchPkmons(rangeE.target.value)}></input>
             
         </>
     )
