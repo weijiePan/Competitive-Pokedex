@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
-import EndIdSlider from "./EndIdslider.jsx"
-import PkmonDisplay from "./PkmonDisplay.jsx";
-import PkmonDetailDisplay from "./PkmonDetailDisplay.jsx";
-import "../../css/list.css"
-import "../../css/pkmonDisplay.css"
+import EndIdSlider from "../listView/EndIdslider.jsx"
+import PkmonDisplay from "../listView/PkmonDisplay.jsx";
+import PkmonDetailDisplay from "../listView/PkmonDetailDisplay.jsx";
+import "@css/pages/list.css"
+import "@css/listView/pkmonDisplay.css"
 
 
 function List(){
@@ -18,11 +18,9 @@ function List(){
             <div className="pokedexListPage">
                 {pkmonDetailDisplay}
                 <EndIdSlider setPkmonObjArr={setPkmonObjArr} pkmonObjArr={pkmonObjArr}/>
-                <div className="pkmonDisplayContainer">
+                <div className="pkmonList">
                     {pkmonDisplays}
                 </div>
-                <p>testing</p>
-                <p>testing2</p>
             </div>
         
         

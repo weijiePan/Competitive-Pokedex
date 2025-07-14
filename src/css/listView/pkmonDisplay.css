@@ -1,7 +1,10 @@
 .pkmonDisplay{
     height:350px;
     width:300px;
-    background-color: red;
+    background-color: rgb(79, 64, 64);
+    opacity:0.7;
+    flex-grow: 1;
+
 }
 
 .pkmonDisplay img{

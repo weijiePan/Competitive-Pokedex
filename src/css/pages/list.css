@@ -1,0 +1,28 @@
+html, body, #root{
+    height:100%;
+    overflow: hidden;
+    padding: 0;
+    margin:0;
+}
+.pokedexListPage{
+    display: block;
+    width:100%;
+    height:100%;
+    background-image:url("../assets/background/blurredMcBackground.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+   
+}
+
+.pkmonList{
+    height:50%;
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+    margin:auto;
+
+}
