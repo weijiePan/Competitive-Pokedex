@@ -21,8 +21,7 @@ html, body, #root{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     overflow: scroll;
     margin:auto;
-
+    scrollbar-color:rgba(115, 241, 5, 0.779) #00000061;
 }

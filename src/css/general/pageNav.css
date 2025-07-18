@@ -15,6 +15,10 @@
     font-family: "lato";
 }
 
+.logo{
+    height:9rem;
+    width:9rem;
+}
 .navHeading{
     margin:0 20px;
 }
