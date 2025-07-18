@@ -1,3 +1,4 @@
+import React from "react";
 import List from "../pages/List";
 import "@css/general/pageNav.css";
 import pokdex from "@assets/pokedex-color.svg"
